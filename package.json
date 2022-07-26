@@ -4,7 +4,7 @@
   "description": "An API Gateway Built on Cloudflare Workers, Durable Objects, KV, R2, and Service Bindings",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,13 @@
   "bugs": {
     "url": "https://github.com/drivly/api-gateway/issues"
   },
-  "homepage": "https://github.com/drivly/api-gateway#readme"
+  "homepage": "https://github.com/drivly/api-gateway#readme",
+  "dependencies": {
+    "hono": "^2.0.5",
+    "toucan-js": "^2.6.1",
+    "worker-auth-providers": "^0.0.10"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
 }

@@ -1,0 +1,14 @@
+name = "api-gateway"
+account_id = "b6641681fe423910342b9ffa1364c76d"
+main = "index.js"
+usage_model = "unbound"
+compatibility_date = "2022-06-21"
+
+r2_buckets  = [
+  { binding = "LOGS", bucket_name = "logs", preview_bucket_name =  "logs-dev" }
+]
+
+[vars]
+LOGGING_ENABLED = true
+LOG_REQUEST_BODY = true
+LOG_RESPONSE_BODY = true
