@@ -25,6 +25,12 @@
   "bugs": {
     "url": "https://github.com/drivly/api-gateway/issues"
   },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true
+  },
   "homepage": "https://github.com/drivly/api-gateway#readme",
   "dependencies": {
     "hono": "^2.0.5",
