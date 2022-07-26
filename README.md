@@ -19,4 +19,4 @@ This was built by [@NathanClevenger](https://github.com/nathanclevenger) to mana
 
 
 ## We're [hiring](https://driv.ly)! 🏎️ 🔥 🚀
-If you love Cloudflare Workers, and want to join a developer-first VC-funded startup on a mission to disrupt the $3.6 trillion automotive industry at the intersection of Auto Commerce, FinTech, and InsureTech, with a simple unified API to buy and sell cars online, please connect with us [here](https://driv.ly)
+If you love Cloudflare Workers, and want to join a developer-first VC-funded startup on a mission to disrupt the $3.6 trillion automotive industry at the intersection of Commerce, Finance, and Insurance, with a simple unified API to buy and sell cars online, please connect with us [here](https://driv.ly)
