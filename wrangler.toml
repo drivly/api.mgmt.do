@@ -4,11 +4,36 @@ main = "index.js"
 usage_model = "unbound"
 compatibility_date = "2022-06-21"
 
+
+[vars]
+AUTH_REQUIRED = true
+LOGGING_ENABLED = true
+LOG_REQUEST_BODY = true
+LOG_RESPONSE_BODY = true
+SUBSCRIPTION_REQUIRED = true
+STRIPE_CHECKOUT_URL = "https://buy.stripe.com/eVa03Y5Su8p51Xi5ku"
+
+
+# This API service binding references a worker that does not need 
+# to have a *.workers.dev or other public endpoint. The API service 
+# is accessed through a Service binding from the gateway Worker directly. 
+# The API Worker is, effectively, a private Worker Service.
+services = [
+  { binding = "API", service = "api", environment = "production" }
+]
+
+
 r2_buckets  = [
   { binding = "LOGS", bucket_name = "logs", preview_bucket_name =  "logs-dev" }
 ]
 
-[vars]
-LOGGING_ENABLED = true
-LOG_REQUEST_BODY = true
-LOG_RESPONSE_BODY = true
+
+# [durable_objects]
+#   bindings = [
+#     { name = "DEVELOPER", class_name = "Developer" }
+#   ]
+
+# [[migrations]]
+#   tag = "v1"
+#   new_classes = ["DEVELOPER"]
+

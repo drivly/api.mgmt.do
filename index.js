@@ -1,3 +1,6 @@
+import Toucan from 'toucan-js'
+import { github } from 'worker-auth-providers'
+
 export default {
   fetch: (req, env, ctx) => {
     const dsn = env.SENTRY_DSN
