@@ -1,0 +1,29 @@
+{
+  "name": "api-gateway",
+  "version": "0.1.0",
+  "description": "An API Gateway Built on Cloudflare Workers, Durable Objects, KV, R2, and Service Bindings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drivly/api-gateway.git"
+  },
+  "keywords": [
+    "api",
+    "api-gateway",
+    "cloudflare",
+    "workers",
+    "durable-objects",
+    "kv",
+    "r2",
+    "service-bindings"
+  ],
+  "author": "Nathan Clevenger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drivly/api-gateway/issues"
+  },
+  "homepage": "https://github.com/drivly/api-gateway#readme"
+}
