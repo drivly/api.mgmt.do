@@ -4,7 +4,7 @@ An API Gateway Built on Cloudflare Workers, Durable Objects, and Service Binding
 
 Start by creating a new repo from this template here.
 
-Then, update `wrangler.toml`
+Then, update `wrangler.toml` with your desired configuration:
 ```
 [vars]
 AUTH_REQUIRED = true
