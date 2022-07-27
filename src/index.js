@@ -2,7 +2,7 @@ import Toucan from 'toucan-js'
 import { github } from 'worker-auth-providers'
 
 export default {
-  fetch: (req, env, ctx) => {
+  fetch: async (req, env, ctx) => {
     const dsn = env.SENTRY_DSN
     const sentry = new Toucan({ dsn, ctx, req })
       
