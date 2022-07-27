@@ -15,7 +15,7 @@ SUBSCRIPTION_REQUIRED = true
 STRIPE_CHECKOUT_URL = "https://buy.stripe.com/eVa03Y5Su8p51Xi5ku"
 ```
 
-This was built by [@NathanClevenger](https://github.com/nathanclevenger) to manage the [Driv.ly](https://driv.ly) API which gets millions of calls per day.
+This was built to manage the [Driv.ly](https://driv.ly) API which gets millions of calls per day.
 
 
 ## We're [hiring](https://driv.ly)! 🏎️ 🔥 🚀
