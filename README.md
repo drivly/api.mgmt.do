@@ -15,42 +15,91 @@ SUBSCRIPTION_REQUIRED = true
 STRIPE_CHECKOUT_URL = "https://buy.stripe.com/eVa03Y5Su8p51Xi5ku"
 ```
 
-## Roadmap of Drivly APIs
+## Drivly API Roadmaps
+
+```
+1. All teams will henceforth expose their data and functionality through service interfaces.
+2. Teams must communicate with each other through these interfaces.
+...
+5. All service interfaces, without exception, must be designed from the ground up to be externalizable. That is to say, the team must plan and design to be able to expose the interface to developers in the outside world. No exceptions.
+6. Anyone who doesn’t do this will be fired.
+7. Thank you; have a nice day!
+
+ - Jeff Bezos
+```
 
 ### Primitives
 
 - alarms.do
 - alerts.do
+- counts.do - 
 - cname.do - 
 - events.do -
-- ddns.do - Dynamic DNS Services
+- ddns.do - Dynamic DNS Service
+- debug.do - 
 - decode.do - 
+- fetch.do
+- hostname.do
+- lists.do
+- lodash.do
+- modules.do
+- obj.do
+- pkg.do 
+- queue.do 
+- repo.do
+- rewrites.do
+- schema.do
+- webhooks.do
+- zones.do
 
 ### Utilities
 
+- api.qa - Hypermedia-driven Automated API Testing
 - benchmark.do
 - colo.do 
+- cors.do - CORS API Proxy
 - logs.do
 
 ### APIs
 
 - apikeys.do
+- crud.do - Dynamic Hypermedia-driven RESTful CRUD APIs
+- rate.limit.do
 
 ### Security
 
+- jwt.do
+- keys.do
+- oauth.do
+
 ### Database
 
-- backups.do
-- database.do
+- graphdl.org
 - graph.do
+- database.do
+- backups.do
 - imports.do
 - exports.do
 - bases.do - Airtable Base API Proxy to manage Airtable Rate Limits and prevent data loss
+- sheet.do
 
 ### Data Transformation
 
 - transform.do
 - mashup.do
+- scraper.do
+
+### Communication
+
+- emails.do
+- texts.do
+- discord.do
+- slack.do
+- drip.do
+
+### Integration
+
+- zaps.do - 
 
 ### Storage
 
@@ -58,26 +107,56 @@ STRIPE_CHECKOUT_URL = "https://buy.stripe.com/eVa03Y5Su8p51Xi5ku"
 
 ### Analytics
 
+- analytics.do
 
 ### Workflows
 
 - approvals.do
+- flows.do
+
+### Product 
+
+- features.do
+- flags.do
+- products.do
 
 ### Websites
 
 - blogs.do
 - content.do
+- landing.do
+- pages.do
+- sites.do
+
+### Marketing 
+
+- hunts.do - Product Hunt Launch Automation
+- flags.do
+- waitlist.do
+
+### Open Source
+
+- sponsors.do
 
 ### Startups
 
-- 
+- startups.do
+- drip.do
+- interns.do
+- careers.do
+- monetize.do
+- okr.do
+- id8.do - Ideation tracking
 
-### Simple SaaS
+### SaaS
 
 - c
 
 ### Automotive Data
 
+- dealers.do
+- lenders.do
+- listings.do
 - makes.api.auto.dev - 
 - vin.api.auto.dev - 
 - listings.api.auto.dev - 
@@ -85,7 +164,10 @@ STRIPE_CHECKOUT_URL = "https://buy.stripe.com/eVa03Y5Su8p51Xi5ku"
 
 ### Horizontal Services
 
+- turk.do - Mechanical Turks API
+- concierge.do - 
 - checkout.do - Dynamic Checkout Redirection
+- esignatures.do - Simple 
 - notary.do - Remote Online Notary
 - poa.do - Power of Attorney
 
