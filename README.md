@@ -17,14 +17,13 @@ STRIPE_CHECKOUT_URL = "https://buy.stripe.com/eVa03Y5Su8p51Xi5ku"
 
 ## Drivly API Roadmaps
 
+### The Jeff Bezos API Mandate
 > 1. All teams will henceforth expose their data and functionality through service interfaces.
 > 2. Teams must communicate with each other through these interfaces.
-> ...
+>    ...
 > 5. All service interfaces, without exception, must be designed from the ground up to be externalizable. That is to say, the team must plan and design to be able to expose the interface to developers in the outside world. No exceptions.
 > 6. Anyone who doesn’t do this will be fired.
 > 7. Thank you; have a nice day!
-> 
->  -Jeff Bezos
 
 ### Primitives
 
