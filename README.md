@@ -19,14 +19,62 @@ STRIPE_CHECKOUT_URL = "https://buy.stripe.com/eVa03Y5Su8p51Xi5ku"
 
 ### Primitives
 
+- alarms.do
+- alerts.do
+- cname.do - 
+- events.do -
+- ddns.do - Dynamic DNS Services
+- decode.do - 
+
+### Utilities
+
+- benchmark.do
+- colo.do 
+- logs.do
+
+### APIs
+
+- apikeys.do
+
 ### Security
 
 ### Database
+
+- backups.do
+- database.do
+- graph.do
+- imports.do
+- exports.do
+- bases.do - Airtable Base API Proxy to manage Airtable Rate Limits and prevent data loss
 
 ### Data Transformation
 
 - transform.do
 - mashup.do
+
+### Storage
+
+- bucket.do
+
+### Analytics
+
+
+### Workflows
+
+- approvals.do
+
+### Websites
+
+- blogs.do
+- content.do
+
+### Startups
+
+- 
+
+### Simple SaaS
+
+- c
 
 ### Automotive Data
 
@@ -37,6 +85,7 @@ STRIPE_CHECKOUT_URL = "https://buy.stripe.com/eVa03Y5Su8p51Xi5ku"
 
 ### Horizontal Services
 
+- checkout.do - Dynamic Checkout Redirection
 - notary.do - Remote Online Notary
 - poa.do - Power of Attorney
 
