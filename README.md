@@ -24,7 +24,7 @@ STRIPE_CHECKOUT_URL = "https://buy.stripe.com/eVa03Y5Su8p51Xi5ku"
 > 6. Anyone who doesn’t do this will be fired.
 > 7. Thank you; have a nice day!
 > 
->  - Jeff Bezos
+>  -Jeff Bezos
 
 ### Primitives
 
