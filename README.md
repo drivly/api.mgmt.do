@@ -113,6 +113,7 @@ STRIPE_CHECKOUT_URL = "https://buy.stripe.com/eVa03Y5Su8p51Xi5ku"
 
 - approvals.do
 - flows.do
+- workflows.do
 
 ### Product 
 
