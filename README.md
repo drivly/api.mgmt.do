@@ -29,6 +29,7 @@ STRIPE_CHECKOUT_URL = "https://buy.stripe.com/eVa03Y5Su8p51Xi5ku"
 
 - alarms.do
 - alerts.do
+- bindings.do - Service Binding Proxy Mesh
 - counts.do - 
 - cname.do - 
 - events.do -
