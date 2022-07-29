@@ -43,10 +43,12 @@ STRIPE_CHECKOUT_URL = "https://buy.stripe.com/eVa03Y5Su8p51Xi5ku"
 - modules.do
 - obj.do
 - pkg.do 
-- queue.do 
+- queue.do - FIFO implementation on Durable Objects
+- stacks.do - LIFO implementation on Durable Objects
 - repo.do
 - rewrites.do
 - schema.do
+- swr.do - Stale While Refresh Cached Proxy
 - webhooks.do
 - zones.do
 
