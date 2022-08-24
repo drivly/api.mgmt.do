@@ -1,11 +1,12 @@
-# Cloudflare Workers API Gateway
+# [apis.do](https://apis.do) Cloudflare Workers API Gateway
 
 An API Gateway Built on Cloudflare Workers, Durable Objects, and Service Bindings
 
 Start by creating a new repo from this template here.
 
 Then, update `wrangler.toml` with your desired configuration:
-```
+
+```toml
 [vars]
 AUTH_REQUIRED = true
 LOGGING_ENABLED = true
@@ -15,11 +16,7 @@ SUBSCRIPTION_REQUIRED = true
 STRIPE_CHECKOUT_URL = "https://buy.stripe.com/eVa03Y5Su8p51Xi5ku"
 ```
 
-
-
-
 This was built to manage the [Driv.ly](https://driv.ly) API which gets millions of calls per day.
-
 
 ## [🚀 We're hiring!](https://careers.do/apply)
 
