@@ -1,14 +1,18 @@
 {
   "name": "api-gateway",
+  "module": "worker.js",
   "version": "0.1.0",
   "description": "An API Gateway Built on Cloudflare Workers, Durable Objects, KV, R2, and Service Bindings",
-  "main": "index.js",
-  "scripts": {
-    "format": "prettier --write ."
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/drivly/api-gateway.git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "dev": "wrangler dev worker.js",
+    "deploy": "wrangler publish worker.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "format": "prettier --write '**/*.{js,css,json,md}'"
   },
   "keywords": [
     "api",
@@ -21,7 +25,6 @@
     "service-bindings"
   ],
   "author": "Nathan Clevenger",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/drivly/api-gateway/issues"
   },
@@ -38,6 +41,8 @@
     "worker-auth-providers": "^0.0.10"
   },
   "devDependencies": {
-    "prettier": "^2.7.1"
+    "jest": "^28.1.3",
+    "prettier": "^2.7.1",
+    "wrangler": "^2.0.27"
   }
 }

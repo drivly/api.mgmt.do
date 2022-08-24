@@ -1,6 +1,7 @@
 name = "api-gateway"
 account_id = "b6641681fe423910342b9ffa1364c76d"
-main = "src/index.js"
+route = { pattern = "apis.do/*", zone_id = "ea8a47831d0640825d0597af006a3cad" }
+main = "worker.js"
 usage_model = "unbound"
 compatibility_date = "2022-06-21"
 node_compat = true
