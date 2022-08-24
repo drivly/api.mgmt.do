@@ -1,4 +1,4 @@
-# [apis.do](https://apis.do) Cloudflare Workers API Gateway
+# Cloudflare Workers API Gateway
 
 An API Gateway Built on Cloudflare Workers, Durable Objects, and Service Bindings
 
