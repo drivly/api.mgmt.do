@@ -1,6 +1,6 @@
-name = "api-gateway"
+name = "api-mgmt-do"
 account_id = "b6641681fe423910342b9ffa1364c76d"
-route = { pattern = "*apis.do/*", zone_id = "ea8a47831d0640825d0597af006a3cad" }
+route = { pattern = "*api.mgmt.do/*", zone_name = "mgmt.do" }
 main = "worker.js"
 usage_model = "unbound"
 compatibility_date = "2022-06-21"
